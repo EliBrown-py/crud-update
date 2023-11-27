@@ -3,7 +3,7 @@
 const dogs = [
   {
     breed: "Dalmation",
-    animal_name: "stella",
+    animal_name: "Stella",
     age: 7,
     feed_times: "10am 3pm 7pm",
     food: "Pedigree Chum",
@@ -12,7 +12,7 @@ const dogs = [
   },
   {
     breed: "Bulldog",
-    animal_name: "buhmie",
+    animal_name: "Buhmie",
     age: 1,
     feed_times: "9am 11am 4pm 7pm",
     food: "Farmer's Dog",
@@ -21,7 +21,7 @@ const dogs = [
   },
   {
     breed: "Australian Cattle Dog",
-    animal_name: "cody",
+    animal_name: "Cody",
     age: 3,
     feed_times: "8am 11am 3pm 7pm",
     food: "Nutrish Active Dog",
@@ -30,7 +30,7 @@ const dogs = [
   },
   {
     breed: "Cane-Corso",
-    animal_name: "zeus",
+    animal_name: "Zeus",
     age: 1,
     feed_times: "9am 3pm 7pm",
     food: "Science Diet",
@@ -41,7 +41,7 @@ const dogs = [
 const cats = [
   {
     breed: "Persian",
-    animal_name: "mango",
+    animal_name: "Mango",
     age: 2,
     feed_times: "10am 3pm 7pm",
     food: "Kitty Best",
@@ -50,7 +50,7 @@ const cats = [
   },
   {
     breed: "Aegean",
-    animal_name: "cutie",
+    animal_name: "Cutie",
     age: 1,
     feed_times: "9am 11am 4pm 7pm",
     food: "Cat Care Premium",
@@ -59,7 +59,7 @@ const cats = [
   },
   {
     breed: "Abyssinian",
-    animal_name: "zola",
+    animal_name: "Zola",
     age: 3,
     feed_times: "8am 11am 3pm 7pm",
     food: "Nutrish Active Cat",
@@ -68,7 +68,7 @@ const cats = [
   },
   {
     breed: "Asian",
-    animal_name: "odin",
+    animal_name: "Odin",
     age: 1,
     feed_times: "9am 3pm 7pm",
     food: "Science Diet",
