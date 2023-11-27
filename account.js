@@ -53,7 +53,7 @@ const createPanel = (event) => {
   animals.forEach((animal) => {
     let animalLine = $(
       `<div class="displayLine">
-          <div class = "info">${animal.animal_name} the ${animal.breed} <img src="./images/${animal.animal_name}.png"/> </div>
+          <div class = "info">${animal.animal_name} the ${animal.breed} <img src="./images/${animal.animal_name.toLowerCase()}.png"/> </div>
           <div class = "crud_buttons"><button class="view">View</button><button class="update">Update</button><button class="remove">Remove</button></div>
           <div class="showInfo"></div>
        </div>`
@@ -164,7 +164,7 @@ const updateHandler = (index) => {
     // Display the updated data in the display line
     let updatedAnimalLine = $(
       `<div class="displayLine">
-          <div class="info">${updatedAnimal.animal_name} the ${updatedAnimal.breed} <img src="./images/genericdog.jpg"/> </div>
+          <div class="info">${updatedAnimal.animal_name} the ${updatedAnimal.breed} <img src="./images/genericdog.jpg".toLowerCase()/> </div>
           <div class="crud_buttons"><button class="view">View</button><button class="update">Update</button><button class="remove">Remove</button></div>
           <div class="showInfo"></div>
        </div>`
